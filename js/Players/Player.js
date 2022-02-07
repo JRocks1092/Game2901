@@ -68,7 +68,8 @@ class Player extends PlayerBase {
         var playerOnline = 0;
 
         await ref.once("value", (data) => {
-            colors = toString(data.val().used_colors).split(",");
+            var color = toString(data.val().used_colors).split(",")
+            colors = color != null && color != undefined ? color:[];
             playerOnline = parseInt(data.val().Players_Online);
         });
 

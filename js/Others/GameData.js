@@ -1,1 +1,1 @@
-PLAYER_COLORS = ["red", "pink", "yellow"];
+PLAYER_COLORS = ["red", "pink", "yellow", "green", "white", "blue"];
