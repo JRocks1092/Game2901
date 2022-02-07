@@ -1,0 +1,1 @@
+PLAYER_COLORS = ["red", "pink", "yellow"];
